@@ -1,7 +1,9 @@
 import 'package:e_commerce_flutter_ui/constants.dart';
-import '../components/splash_content.dart';
 import 'package:e_commerce_flutter_ui/size_config.dart';
 import 'package:flutter/material.dart';
+// This is the best practice
+import '../components/splash_content.dart';
+import '../../../components/default_button.dart';
 
 class Body extends StatefulWidget {
   @override
@@ -63,10 +65,12 @@ class _BodyState extends State<Body> {
                         (index) => buildDot(index: index),
                       ),
                     ),
-                    Spacer(flex: 3,),
+                    Spacer(
+                      flex: 3,
+                    ),
                     DefaultButton(
                       text: "Continue",
-                      press: (){},
+                      press: () {},
                     ),
                     Spacer(),
                   ],
@@ -88,38 +92,6 @@ class _BodyState extends State<Body> {
       decoration: BoxDecoration(
         color: currentPage == index ? kPrimaryColor : Color(0xFFD8D8D8),
         borderRadius: BorderRadius.circular(3),
-      ),
-    );
-  }
-}
-
-class DefaultButton extends StatelessWidget {
-  const DefaultButton({
-    Key key,
-    this.press,
-    this.text,
-  }) : super(key: key);
-  final String text;
-  final Function press;
-
-  @override
-  Widget build(BuildContext context) {
-    return SizedBox(
-      width: double.infinity,
-      height: getProportionateScreenHeight(56),
-      child: FlatButton(
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(20),
-        ),
-        color: kPrimaryColor,
-        onPressed: press,
-        child: Text(
-          text,
-          style: TextStyle(
-            fontSize: getProportionateScreenWidth(18),
-            color: Colors.white,
-          ),
-        ),
       ),
     );
   }
