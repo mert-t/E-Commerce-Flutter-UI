@@ -9,8 +9,9 @@ class Body extends StatefulWidget {
 }
 
 class _BodyState extends State<Body> {
-  List<Map<String,String>> splashData =[
-     {
+  int currentPage = 0;
+  List<Map<String, String>> splashData = [
+    {
       "text": "Welcome to Tokoto, Let’s shop!",
       "image": "assets/images/splash_1.png"
     },
@@ -32,23 +33,94 @@ class _BodyState extends State<Body> {
         child: Column(
           children: [
             Expanded(
-                flex: 3,
-                child: PageView.builder(
-                  itemCount:splashData.length,
-                  itemBuilder: (context, index) => SplashContent(
-                    image: splashData[index]["image"],
-                    text: splashData[index]['text'],
-                  ),
-                 ),),
+              flex: 3,
+              child: PageView.builder(
+                onPageChanged: (value) {
+                  setState(() {
+                    currentPage = value;
+                  });
+                },
+                itemCount: splashData.length,
+                itemBuilder: (context, index) => SplashContent(
+                  image: splashData[index]["image"],
+                  text: splashData[index]['text'],
+                ),
+              ),
+            ),
             Expanded(
               flex: 2,
-              child: SizedBox(),
+              child: Padding(
+                padding: EdgeInsets.symmetric(
+                  horizontal: getProportionateScreenWidth(20),
+                ),
+                child: Column(
+                  children: [
+                    Spacer(),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: List.generate(
+                        splashData.length,
+                        (index) => buildDot(index: index),
+                      ),
+                    ),
+                    Spacer(flex: 3,),
+                    DefaultButton(
+                      text: "Continue",
+                      press: (){},
+                    ),
+                    Spacer(),
+                  ],
+                ),
+              ),
             ),
           ],
         ),
       ),
     );
   }
+
+  AnimatedContainer buildDot({int index}) {
+    return AnimatedContainer(
+      duration: kAnimationDuration,
+      margin: EdgeInsets.only(right: 5),
+      height: 6,
+      width: currentPage == index ? 20 : 6,
+      decoration: BoxDecoration(
+        color: currentPage == index ? kPrimaryColor : Color(0xFFD8D8D8),
+        borderRadius: BorderRadius.circular(3),
+      ),
+    );
+  }
 }
 
+class DefaultButton extends StatelessWidget {
+  const DefaultButton({
+    Key key,
+    this.press,
+    this.text,
+  }) : super(key: key);
+  final String text;
+  final Function press;
 
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: double.infinity,
+      height: getProportionateScreenHeight(56),
+      child: FlatButton(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(20),
+        ),
+        color: kPrimaryColor,
+        onPressed: press,
+        child: Text(
+          text,
+          style: TextStyle(
+            fontSize: getProportionateScreenWidth(18),
+            color: Colors.white,
+          ),
+        ),
+      ),
+    );
+  }
+}
