@@ -1,4 +1,5 @@
 import 'package:e_commerce_flutter_ui/constants.dart';
+import 'package:e_commerce_flutter_ui/screens/sign_in.dart/sign_in_screen.dart';
 import 'package:e_commerce_flutter_ui/size_config.dart';
 import 'package:flutter/material.dart';
 // This is the best practice
@@ -70,7 +71,9 @@ class _BodyState extends State<Body> {
                     ),
                     DefaultButton(
                       text: "Continue",
-                      press: () {},
+                      press: () {
+                        Navigator.pushNamed(context, SignInScreen.routeName);
+                      },
                     ),
                     Spacer(),
                   ],

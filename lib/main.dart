@@ -1,6 +1,7 @@
 import 'package:e_commerce_flutter_ui/constants.dart';
 import 'package:e_commerce_flutter_ui/routs.dart';
 import 'package:e_commerce_flutter_ui/screens/splash/splash_screen.dart';
+import 'package:e_commerce_flutter_ui/theme.dart';
 
 import 'package:flutter/material.dart';
 
@@ -13,19 +14,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      
-      theme: ThemeData(
-        fontFamily: "Muli",
-        textTheme: TextTheme(
-            bodyText1: TextStyle(color: kTextColor),
-            bodyText2: TextStyle(color: kTextColor)),
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-        scaffoldBackgroundColor: Colors.white,
-      ),
-      //home: SplashScreen(),
+      theme: theme(),
+
+      //home: SplashScreen (),
       initialRoute: SplashScreen.routeName,
       routes: routes,
-    
     );
   }
 }
+
