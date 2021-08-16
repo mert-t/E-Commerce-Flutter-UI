@@ -45,6 +45,8 @@ class SignForm extends StatefulWidget {
 }
 
 class _SignFormState extends State<SignForm> {
+  String email;
+  String password;
   final _formKey = GlobalKey<FormState>();
   final List<String> errors = [];
 
@@ -59,6 +61,7 @@ class _SignFormState extends State<SignForm> {
           buildPasswordFormField(),
           SizedBox(height: getProportionateScreenHeight(20)),
           FormError(errors: errors),
+          SizedBox(height: getProportionateScreenHeight(20)),
           DefaultButton(
             text: "Continue",
             press: () {
@@ -77,6 +80,31 @@ class _SignFormState extends State<SignForm> {
   TextFormField buildPasswordFormField() {
     return TextFormField(
       obscureText: true,
+      onSaved: (newValue)=>password= newValue,
+      onChanged: (value) {
+        if (value.isNotEmpty && errors.contains(kPassNullError)) {
+          setState(() {
+            errors.remove(kPassNullError);
+          });
+        }else if(value.length >= 8 && errors.contains(kShortPassError)){
+          setState(() {
+            errors.remove(kShortPassError);
+          });
+        }
+        return null;
+      },
+      validator: (value){
+          if (value.isEmpty && !errors.contains(kPassNullError)) {
+          setState(() {
+            errors.add(kPassNullError);
+          });
+        }else if(value.length < 8 && !errors.contains(kShortPassError)){
+          setState(() {
+            errors.add(kShortPassError);
+          });
+        }
+        return null;
+      },
       keyboardType: TextInputType.emailAddress,
       decoration: InputDecoration(
         labelText: "Password",
@@ -92,6 +120,7 @@ class _SignFormState extends State<SignForm> {
   TextFormField buildEmailFormField() {
     return TextFormField(
       keyboardType: TextInputType.emailAddress,
+      onSaved: (newValue) => email= newValue,
       onChanged: (value){
           if (value.isNotEmpty && errors.contains(kEmailNullError)) {
           setState(() {
