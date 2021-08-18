@@ -1,4 +1,5 @@
 import 'package:e_commerce_flutter_ui/screens/forgot_password.dart/forgot_password_screen.dart';
+import 'package:e_commerce_flutter_ui/screens/sign_up/sign_up_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../constants.dart';
@@ -18,7 +19,7 @@ class NoAccountText extends StatelessWidget {
             style:
                 TextStyle(fontSize: getProportionateScreenWidth(16))),
         GestureDetector(
-          onTap: (){},
+          onTap: ()=> Navigator.pushNamed(context,SignUpScreen.routeName),
           child: Text("Sign Up",
               style: TextStyle(
                   fontSize: getProportionateScreenWidth(16),

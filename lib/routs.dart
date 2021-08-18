@@ -1,6 +1,7 @@
 import 'package:e_commerce_flutter_ui/screens/forgot_password.dart/forgot_password_screen.dart';
 import 'package:e_commerce_flutter_ui/screens/login_success/login_success_screen.dart';
 import 'package:e_commerce_flutter_ui/screens/sign_in.dart/sign_in_screen.dart';
+import 'package:e_commerce_flutter_ui/screens/sign_up/sign_up_screen.dart';
 import 'package:e_commerce_flutter_ui/screens/splash/splash_screen.dart';
 import 'package:flutter/widgets.dart';
 
@@ -11,6 +12,8 @@ final Map<String,WidgetBuilder> routes = {
  SignInScreen.routeName:(context) => SignInScreen(),
  ForgotPasswordScreen.routeName:(context) =>ForgotPasswordScreen(),
  LoginSuccessScreen.routeName:(context)=>LoginSuccessScreen(),
+ SignUpScreen.routeName:(context)=>SignUpScreen(),
+ 
  
 };
 
