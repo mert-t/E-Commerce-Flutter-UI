@@ -1,4 +1,5 @@
 
+
 # E-Commerce Flutter UI 
 
 ### Note that: This is not complete yet
@@ -18,6 +19,11 @@ Forgot Password Screen:
 Login Success Screen:
 
 ![Screenshot_1629184352](https://user-images.githubusercontent.com/83662229/129680559-e1d6f741-eda2-468c-a98f-bec5b20c85c3.png)
+
+Sign Up Screen:
+
+![Screenshot_1629296561](https://user-images.githubusercontent.com/83662229/129915827-4cef147e-81d7-4655-a5af-153a3f0af0c0.png)
+
 
 
 
