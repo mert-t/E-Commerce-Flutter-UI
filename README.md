@@ -17,7 +17,8 @@ Forgot Password Screen:
 
 Login Success Screen:
 
-![Screenshot_1629183885](https://user-images.githubusercontent.com/83662229/129680041-b4751711-cc17-4450-b197-096591592b55.png)
+![Screenshot_1629184352](https://user-images.githubusercontent.com/83662229/129680559-e1d6f741-eda2-468c-a98f-bec5b20c85c3.png)
+
 
 
 
