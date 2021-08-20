@@ -1,8 +1,8 @@
 
 
-# E-Commerce Flutter UI 
 
-### Note that: This is not complete yet
+# E-Commerce Flutter UI 
+(Thanks to TheFlutterWay)
 
 Onboarding Screen:
 
@@ -24,7 +24,9 @@ Sign Up Screen:
 
 ![Screenshot_1629296561](https://user-images.githubusercontent.com/83662229/129915827-4cef147e-81d7-4655-a5af-153a3f0af0c0.png)
 
+Complete Profile Screen:
 
+![Screenshot_1629478262](https://user-images.githubusercontent.com/83662229/130267421-fa9f9a69-a6ea-4980-8852-29900c0b61fc.png)
 
 
 
