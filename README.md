@@ -28,6 +28,11 @@ Complete Profile Screen:
 
 ![Screenshot_1629478262](https://user-images.githubusercontent.com/83662229/130267421-fa9f9a69-a6ea-4980-8852-29900c0b61fc.png)
 
+OTP Screen:
+
+![Screenshot_1629493486](https://user-images.githubusercontent.com/83662229/130293335-cbafa7dd-b59c-4b14-b8d7-bade078aa0e4.png)
+
+
 
 
 
