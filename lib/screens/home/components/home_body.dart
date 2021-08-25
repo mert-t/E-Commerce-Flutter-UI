@@ -1,3 +1,4 @@
+import 'package:e_commerce_flutter_ui/screens/home/components/popular_products.dart';
 import 'package:e_commerce_flutter_ui/screens/home/components/special_offers.dart';
 import 'package:e_commerce_flutter_ui/size_config.dart';
 import 'package:flutter/material.dart';
@@ -19,7 +20,10 @@ class HomeBody extends StatelessWidget {
             SizedBox(height: getProportionateScreenWidth(30)),
             Categories(),
             SizedBox(height: getProportionateScreenWidth(30)),
-            SpecialOffers()
+            SpecialOffers(),
+            SizedBox(height: getProportionateScreenWidth(30)),
+            PopularProducts(),
+            SizedBox(height: getProportionateScreenWidth(30)),
           ],
         ),
       ),
