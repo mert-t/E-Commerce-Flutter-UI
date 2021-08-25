@@ -32,6 +32,11 @@ OTP Screen:
 
 ![Screenshot_1629493486](https://user-images.githubusercontent.com/83662229/130293335-cbafa7dd-b59c-4b14-b8d7-bade078aa0e4.png)
 
+Home Screen:
+
+![Screenshot_1629873824](https://user-images.githubusercontent.com/83662229/130739800-f46510ce-a491-415d-9e42-10349034991a.png)
+
+
 
 
 
