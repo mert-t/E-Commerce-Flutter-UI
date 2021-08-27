@@ -39,7 +39,7 @@ final otpInputDecoration = InputDecoration(
   focusedBorder: outlineInputBorder(),
   border: outlineInputBorder(),
 );
-
+const defaultDuration = Duration(milliseconds: 250);
 OutlineInputBorder outlineInputBorder() {
   return OutlineInputBorder(
     borderRadius: BorderRadius.circular(15),
