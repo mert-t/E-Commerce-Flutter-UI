@@ -36,6 +36,11 @@ Home Screen:
 
 ![Screenshot_1629873824](https://user-images.githubusercontent.com/83662229/130739800-f46510ce-a491-415d-9e42-10349034991a.png)
 
+Details Screen:
+
+![Screenshot_1630064926](https://user-images.githubusercontent.com/83662229/131122862-59d91758-a155-449b-b6a6-7c862101a263.png)
+
+
 
 
 
