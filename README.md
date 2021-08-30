@@ -40,6 +40,10 @@ Details Screen:
 
 ![Screenshot_1630064926](https://user-images.githubusercontent.com/83662229/131122862-59d91758-a155-449b-b6a6-7c862101a263.png)
 
+Cart Screen:
+
+![Screenshot_1630338082](https://user-images.githubusercontent.com/83662229/131366000-a1a93671-70e2-437f-af5e-ae7ad833d45c.png)
+
 
 
 
