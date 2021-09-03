@@ -44,6 +44,11 @@ Cart Screen:
 
 ![Screenshot_1630338082](https://user-images.githubusercontent.com/83662229/131366000-a1a93671-70e2-437f-af5e-ae7ad833d45c.png)
 
+Profile Screen:
+
+![image](https://user-images.githubusercontent.com/83662229/131996646-a1ca85fd-dc6c-41b2-9ce2-f4aeaf186397.png)
+
+
 
 
 
