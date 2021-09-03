@@ -6,43 +6,48 @@
 
 Onboarding Screen:
 
-![Screenshot_1628841973](https://user-images.githubusercontent.com/83662229/129325472-c6e8324c-1a88-4ff5-906f-2f93cf9e03bd.png)
+![image](https://user-images.githubusercontent.com/83662229/131997416-437dfcc8-b129-4bfd-82d6-67dd841d60dc.png)
 
 Sign In Screen:
 
-![Screenshot_1629184025](https://user-images.githubusercontent.com/83662229/129679911-050a3701-d6e1-4bf2-9c12-de06d89a6c39.png)
+![image](https://user-images.githubusercontent.com/83662229/131997382-eb72f2e1-cb49-4143-b10d-10e4c0e93dda.png)
 
 Forgot Password Screen:
 
-![Screenshot_1629184001](https://user-images.githubusercontent.com/83662229/129679977-cd93aa90-37f4-49fe-a38c-a6800c461398.png)
+![image](https://user-images.githubusercontent.com/83662229/131997300-6792e9aa-58ee-4348-8e3b-9cd79c308a9c.png)
 
 Login Success Screen:
 
-![Screenshot_1629184352](https://user-images.githubusercontent.com/83662229/129680559-e1d6f741-eda2-468c-a98f-bec5b20c85c3.png)
+![image](https://user-images.githubusercontent.com/83662229/131997247-95c9c326-4aec-41a0-b829-1e794ce588b9.png)
 
 Sign Up Screen:
 
-![Screenshot_1629296561](https://user-images.githubusercontent.com/83662229/129915827-4cef147e-81d7-4655-a5af-153a3f0af0c0.png)
+![image](https://user-images.githubusercontent.com/83662229/131997194-f6b443a9-45e3-40b0-8374-762216f50740.png)
 
 Complete Profile Screen:
 
-![Screenshot_1629478262](https://user-images.githubusercontent.com/83662229/130267421-fa9f9a69-a6ea-4980-8852-29900c0b61fc.png)
+![image](https://user-images.githubusercontent.com/83662229/131997093-d3e74015-ee2c-4946-925f-77771b4dea81.png)
 
 OTP Screen:
 
-![Screenshot_1629493486](https://user-images.githubusercontent.com/83662229/130293335-cbafa7dd-b59c-4b14-b8d7-bade078aa0e4.png)
+![image](https://user-images.githubusercontent.com/83662229/131997051-da45cc5b-6fed-4321-a352-29f67e4a5334.png)
 
 Home Screen:
 
-![Screenshot_1629873824](https://user-images.githubusercontent.com/83662229/130739800-f46510ce-a491-415d-9e42-10349034991a.png)
+![image](https://user-images.githubusercontent.com/83662229/131996998-066b5718-35be-44fd-9c3c-25c8f79d9da8.png)
 
 Details Screen:
 
-![Screenshot_1630064926](https://user-images.githubusercontent.com/83662229/131122862-59d91758-a155-449b-b6a6-7c862101a263.png)
+![image](https://user-images.githubusercontent.com/83662229/131996930-df2f1bb6-3f9b-4a68-9f26-c2ffb288f943.png)
 
 Cart Screen:
 
-![Screenshot_1630338082](https://user-images.githubusercontent.com/83662229/131366000-a1a93671-70e2-437f-af5e-ae7ad833d45c.png)
+![image](https://user-images.githubusercontent.com/83662229/131996875-13d35212-a4f4-41bc-a942-9995535fcbc2.png)
+
+Profile Screen:
+
+![image](https://user-images.githubusercontent.com/83662229/131998158-88ef6521-c0a2-4355-a679-b65606e93be8.png)
+
 
 
 
